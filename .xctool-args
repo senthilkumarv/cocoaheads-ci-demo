@@ -1,0 +1,6 @@
+[
+  "-workspace", "Calculator.xcworkspace",
+  "-configuration", "Debug",
+  "-sdk", "iphonesimulator",
+  "-arch", "i386"
+]
