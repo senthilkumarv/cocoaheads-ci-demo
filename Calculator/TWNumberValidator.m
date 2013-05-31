@@ -12,7 +12,7 @@
 
 +(BOOL) validate: (NSString *) stringToValidate {
     for(int i=0; i<stringToValidate.length; i++) {
-        if(!([stringToValidate characterAtIndex:i] >48 && [stringToValidate characterAtIndex:i] <= 57)) {
+        if(!([stringToValidate characterAtIndex:i] >=48 && [stringToValidate characterAtIndex:i] <= 57)) {
             return NO;
         }        
     }
