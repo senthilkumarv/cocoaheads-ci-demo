@@ -1,0 +1,53 @@
+# Xcode
+*.pbxuser
+!default.pbxuser
+*.mode1v3
+!default.mode1v3
+*.mode2v3
+!default.mode2v3
+*.perspectivev3
+!default.perspectivev3
+*.xcworkspace
+!default.xcworkspace
+xcuserdata
+
+# Appcode
+.idea
+
+# Vim
+*.swp
+
+# Our mess
+profile
+*.moved-aside
+.DS_Store
+build
+*.app.dSYM.zip
+*.ipa
+build.out
+test-reports
+local.env
+.rvmrc
+.bundle
+bin
+Pods
+books
+9
+136
+*.perspectivev3
+*.pbxuser
+.DS_Store
+build
+
+#sass stuff
+www/css
+.sass-cache
+Podfile.lock
+Gemfile.lock
+node_modules
+
+#coverage stuff
+js-cov
+coverage.json
+coverage-report*
+vendor
