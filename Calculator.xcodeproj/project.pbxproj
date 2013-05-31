@@ -22,10 +22,10 @@
 		91066ED91758C77E00EDE47A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 91066EB01758C77E00EDE47A /* UIKit.framework */; };
 		91066EDA1758C77E00EDE47A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 91066EB21758C77E00EDE47A /* Foundation.framework */; };
 		91066EE21758C77E00EDE47A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 91066EE01758C77E00EDE47A /* InfoPlist.strings */; };
-		91066EE51758C77E00EDE47A /* CalculatorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 91066EE41758C77E00EDE47A /* CalculatorTests.m */; };
 		91066EF01758C97000EDE47A /* TWCalculatorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 91066EEF1758C97000EDE47A /* TWCalculatorViewController.m */; };
 		91066EF31758C98000EDE47A /* TWResultViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 91066EF21758C98000EDE47A /* TWResultViewController.m */; };
 		91066EF61758CB1400EDE47A /* TWNumberValidator.m in Sources */ = {isa = PBXBuildFile; fileRef = 91066EF51758CB1400EDE47A /* TWNumberValidator.m */; };
+		91066EF91758E8B000EDE47A /* NumberValidatorSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = 91066EF81758E8B000EDE47A /* NumberValidatorSpec.m */; };
 		EBC081F8CB94463F91F9CA2A /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 458A8DD9D8C64A1AB3F675B1 /* libPods.a */; };
 /* End PBXBuildFile section */
 
@@ -61,14 +61,13 @@
 		91066ED71758C77E00EDE47A /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
 		91066EDF1758C77E00EDE47A /* CalculatorTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CalculatorTests-Info.plist"; sourceTree = "<group>"; };
 		91066EE11758C77E00EDE47A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		91066EE31758C77E00EDE47A /* CalculatorTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CalculatorTests.h; sourceTree = "<group>"; };
-		91066EE41758C77E00EDE47A /* CalculatorTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CalculatorTests.m; sourceTree = "<group>"; };
 		91066EEE1758C97000EDE47A /* TWCalculatorViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TWCalculatorViewController.h; sourceTree = "<group>"; };
 		91066EEF1758C97000EDE47A /* TWCalculatorViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TWCalculatorViewController.m; sourceTree = "<group>"; };
 		91066EF11758C98000EDE47A /* TWResultViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TWResultViewController.h; sourceTree = "<group>"; };
 		91066EF21758C98000EDE47A /* TWResultViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TWResultViewController.m; sourceTree = "<group>"; };
 		91066EF41758CB1400EDE47A /* TWNumberValidator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TWNumberValidator.h; sourceTree = "<group>"; };
 		91066EF51758CB1400EDE47A /* TWNumberValidator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TWNumberValidator.m; sourceTree = "<group>"; };
+		91066EF81758E8B000EDE47A /* NumberValidatorSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NumberValidatorSpec.m; sourceTree = "<group>"; };
 		C30D2FB971E54E4287AB6F66 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
@@ -166,9 +165,8 @@
 		91066EDD1758C77E00EDE47A /* CalculatorTests */ = {
 			isa = PBXGroup;
 			children = (
-				91066EE31758C77E00EDE47A /* CalculatorTests.h */,
-				91066EE41758C77E00EDE47A /* CalculatorTests.m */,
 				91066EDE1758C77E00EDE47A /* Supporting Files */,
+				91066EF81758E8B000EDE47A /* NumberValidatorSpec.m */,
 			);
 			path = CalculatorTests;
 			sourceTree = "<group>";
@@ -365,7 +363,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				91066EE51758C77E00EDE47A /* CalculatorTests.m in Sources */,
+				91066EF91758E8B000EDE47A /* NumberValidatorSpec.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
